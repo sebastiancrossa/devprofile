@@ -11,11 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var profileImg: UIImageView!
+    @IBOutlet weak var customizeBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         profileImg.layer.cornerRadius = 5
+        customizeBtn.layer.cornerRadius = 5
         
     }
     

@@ -312,6 +312,7 @@
 				98E9A2871F2A5FD900E17769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
