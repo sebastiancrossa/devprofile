@@ -9,13 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var devslopesProfileImg: UIImageView!
+    
+    @IBOutlet weak var profileImg: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        devslopesProfileImg.layer.cornerRadius = 20
+        profileImg.layer.cornerRadius = 5
         
     }
     

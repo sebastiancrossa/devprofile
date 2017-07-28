@@ -33,7 +33,7 @@
                                     <constraint firstAttribute="height" constant="150" id="V8A-1P-fRP"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="devslopesProfileLogo" translatesAutoresizingMaskIntoConstraints="NO" id="TVN-le-jJe">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="devslopesProfileLogo" translatesAutoresizingMaskIntoConstraints="NO" id="TVN-le-jJe">
                                 <rect key="frame" x="16" y="120" width="110" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="0Bm-RS-Mcg"/>
@@ -114,7 +114,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="devslopesProfileImg" destination="TVN-le-jJe" id="HPX-Wg-xRg"/>
+                        <outlet property="profileImg" destination="TVN-le-jJe" id="xky-hW-G3C"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
